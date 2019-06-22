@@ -377,3 +377,10 @@
 93. 创业的时候，不要关注怎么筹集资金，而要关注怎么建立业务。
 
     -- 创业者 [Alexander Muse](https://medium.com/startup-muse/chapter-one-most-entrepreneurs-should-not-raise-capital-cf58e883fe62)
+
+94. 一家公司要么全部人员都是远程办公，要么根本就没有远程办公，不太可能有中间状态。
+
+    很多公司吹嘘自己的员工可以自由选择远程办公，其实做不到，因为办公室工作的团队成员，不可避免地会具有信息优势，能够更早更多地得知信息，特别是如果领导层都在公司办公的话。
+
+    -- [《我的十年远程工作经验》](https://blog.viktorpetersson.com/2019/05/18/a-decade-of-remote.html)
+

@@ -312,3 +312,21 @@
 
 81. https://pages.github.com/  [GitHub Pages 支持自定义域名的 HTTPS 访问](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/)
     * 以前，GitHub Pages 绑定的自定义域名，只能使用 HTTP 协议访问。如果想开通加密访问，只有使用官方域名 [myrepo.github.io](https://t.co/c4faaiTV58)。现在，GitHub 使用 Let's encrypt ，终于做到可以对自定义域名签发 HTTPS 证书了。
+
+82. [Python 清理过时的标准库](https://www.python.org/dev/peps/pep-0594/)（英文）
+    * Python 的设计哲学是"自带电池"（battery-included），就是把需要的功能都包括在标准库里面。但是，随着 PyPI  越来越方便，Python 社区正在检讨这种哲学是否正确。缩减标准库可能是必要的，能让 Python  发行版更精简和灵活，第一步就是把过时的功能移出标准库。
+
+83. [十五年了，海盗湾依然存在](https://melmagazine.com/en-us/story/after-15-years-the-pirate-bay-still-cant-be-killed)（英文）
+
+    * ![img](https://www.wangbase.com/blogimg/asset/201906/bg2019062116.jpg)
+
+    * 海盗湾成立至今，已经十五年了。无数次被告，服务器被抄家，域名被封锁，甚至四个创始人都关进监狱一年，但是直到今天，它依然在正常运作。
+
+84. [如何使用 GitHub issue 作为博客后端？](https://github.com/ruanyf/weekly/issues/585)（中文）
+    * 你可以使用 GitHub issue 写博客，然后依靠 API 通过 Circle-CI 构建出网站。
+
+85. [ssh-agent 转发详解](http://www.unixwiz.net/techtips/ssh-agent-forwarding.html)（英文）
+    * ssh 登录的时候，比较安全的做法是使用公钥认证。但是，这要求本机必须有私钥。如果你需要在多台机器上使用 ssh  登录，一台台拷贝私钥很麻烦，也不安全，幸好 ssh 提供了 agent 转发功能，允许在一台机器上 ssh  登录的时候，可以使用另一台机器的私钥。
+
+86. [gRPC 与 RESTful API 的比较](https://eng.fromatob.com/post/2019/05/why-were-switching-to-grpc/)（英文）
+    * 使用微服务式架构时，服务的通信方式可以是 RESTful API，也可以用 gRPC，作者分析了两者的差异。

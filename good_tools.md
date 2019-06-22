@@ -299,3 +299,6 @@
     * ![img](https://www.wangbase.com/blogimg/asset/201812/bg2018122819.jpg)
 
     * Chrome 浏览器插件，可以为空白 Tab 设置背景图，显示当前时间。
+
+80. [Hello GitHub](https://hellogithub.com/)
+    * 跟踪收集 GitHub 新项目的《Hello GitHub》的官网。（@[Salmonberry](https://github.com/ruanyf/weekly/issues/566) 投稿）
