@@ -552,3 +552,7 @@
 120. [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 
      该仓库收集对程序员有用的网址，包含问题查找、技术新闻、技术博客、开源社区、英文提升、新奇的玩意儿、视频教程、在线工具等数十个方向的内容。（@[qiurenbo](https://github.com/ruanyf/weekly/issues/108) 投稿）
+
+121. [概率论的基础概念](https://luminousmen.com/post/data-science-probability)（英文）
+
+     这是一组系列文章，面向新人的概率论入门，并且有 Python 语言的示例。
