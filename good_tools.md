@@ -302,3 +302,9 @@
 
 80. [Hello GitHub](https://hellogithub.com/)
     * 跟踪收集 GitHub 新项目的《Hello GitHub》的官网。（@[Salmonberry](https://github.com/ruanyf/weekly/issues/566) 投稿）
+
+81. [Aminated Knots](https://www.animatedknots.com/complete-knot-list)
+
+    ![img](https://www.wangbase.com/blogimg/asset/201906/bg2019060403.jpg)
+
+    收集各种绳子打结的方法，并且有动画教学

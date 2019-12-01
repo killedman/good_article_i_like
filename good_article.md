@@ -12,9 +12,6 @@
 4. [5G网速那么快，基站辐射会很大吗？](https://www.huxiu.com/article/295373.html)（中文）
    
    * 5G 通信使用比 4G 更高的频率，需要的能量更大，这对基站和手机的辐射有何影响。这篇文章给出了很好的分析。
-5. [从虚拟主机到 Kubernetes](http://highscalability.com/blog/2019/4/8/from-bare-metal-to-kubernetes.html)（英文）
-
-   * 一位后端架构工程师以自己的亲身经历，详细介绍公司基础架构的变化。
 6. [任正非5月21日专访全文](https://36kr.com/p/5207055)（中文）
    
    *  2019年5月21日，多家中文媒体联合采访任正非，长达150分钟，这里是全文记录稿，信息量很大，值得一读。
@@ -33,10 +30,6 @@
 10. [如何制作一个多人实时协作的编辑器](https://news.ycombinator.com/item?id=19845776)（英文）
     
     * 这是 Hacker News 的一个讨论帖，完整涉及了现有的多人实时协作的算法和软件实现。
-    
-11. [虚拟内存探究](http://blog.coderhuo.tech/2017/10/19/Virtual_Memory_summary/)（中文）
-    
-    * 这组系列文章通过实验的方式，介绍虚拟内存的相关概念和实现，这里是中文翻译，还可以参考[英语原版](https://blog.holbertonschool.com/hack-the-virtual-memory-c-strings-proc/)。（@[NeoTse](https://github.com/ruanyf/weekly/issues/491) 投稿）
     
 12. [如何画一幅栩栩如生的画](https://www.scotthyoung.com/blog/2019/04/17/7-realistic-drawing-skills/)（英文）
 
@@ -74,18 +67,6 @@
     
     * 本文回顾了 Evernote 的历史，从诞生到快速发展，以及后来几个重大的决策失误，分析它的经验教训。
     
-21. [25年后重新采访 Linus Torvalds](https://mp.weixin.qq.com/s/KWC43nTsL134n6VkSD2x4w)（中文）
-
-    * Linux Journal 杂志1994年创刊号[采访](https://www.linuxjournal.com/article/2736)了 Linus Torvalds，为了庆祝杂志诞生25周年又重新采访了他（[英语原文](https://linuxjournal.com/content/25-years-later-interview-linus-torvalds)）。上一次采访时，他还没结婚，现在有三个小孩，老大马上就要大学毕业。上一次，杂志问他有何梦想，他说希望 Linux 统治世界。现在，他说早就不开这种玩笑了，因为这话已经不像玩笑了。（@[Y024](https://github.com/ruanyf/weekly/issues/437) 投稿）
-    
-22. [使用 systemd 创建 Linux 服务](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)（英文）
-    
-* 创建 Linux 服务相当容易：使用你喜欢的编程语言编写一个长期运行的程序，并使用 systemd 将其转换为服务。
-  
-23. [加强 Linux 服务器安全的七个步骤](https://medium.com/@mutendebrian/how-to-secure-your-linux-server-6026cfcdefd8)（英文）
-    
-* 自己架设 Linux 服务器的时候，按照本文的步骤，可以防止90%以上的攻击。
-  
 24. [日志记录的最佳实践](https://geshan.com.np/blog/2019/03/follow-these-logging-best-practices-to-get-the-most-out-of-application-level-logging-slides/)（英文）
     
 * 如果狗是男人最好的朋友，那么日志就是软件工程师最好的朋友。本文介绍日志的一些最佳实践，文后附有幻灯片，幻灯片比文章本身更有价值。
@@ -98,29 +79,17 @@
     
 * 一个美国工程师回顾自己的薪水增长，2007年他作为 IT 管理员，年薪是4.2万美元，2018年他变成了架构师，年薪是18.9万美元。许多网友看了他的文章，也纷纷留言，写下自己的[年薪变化](https://news.ycombinator.com/item?id=19393688)。
   
-27. [如何安装 Alpine Linux 的桌面](https://blog.overops.com/my-alpine-desktop-setting-up-a-software-development-environment-on-alpine-linux/)（英文）
-    
-* Alpine 是一个极度瘦身的 Linux 发行版，只有 5MB 左右，主要用于制作 Docker 镜像文件。本文介绍 Alpine 的基本知识，如何安装一个基于它的桌面开发环境。
   
 28. [刘慈欣：释放想象力](http://cn.chinadaily.com.cn/2018-11/12/content_37243853.htm)（中英对照）
     
 * 2018年11月，刘慈欣在克拉克想象力服务社会奖颁奖仪式上的演说。
   
-29. [再见 Docker](https://technodrone.blogspot.com/2019/02/goodbye-docker-and-thanks-for-all-fish.html)（英文）
-    
-* 作者认为，Docker 作为一家公司已经失败，作为一种技术，也即将被其他容器技术取代。
   
 30. [关于 EOF](https://latedev.wordpress.com/2012/12/04/all-about-eof/)（英文）
     
 * EOF 是一个很容易混淆的概念。Windows 系统的文本文件，结尾可以有 EOF 终止符；C / C++ 语言有一个表示读取终止的特殊值 EOF，还有测试读取是否终止的 `eof()` 和 `feof()` 函数。
   
-31. [线程的基本知识](https://www.internalpointers.com/post/gentle-introduction-multithreading)（英文）
-    
-* 一篇写得非常好的科普文章，通俗地详尽解释了进程和线程的相关知识。
   
-32. [我的 Linux 桌面配置](https://hookrace.net/blog/linux-desktop-setup/)（英文）
-    
-* 一个高级程序员介绍他的 Linux 桌面开发环境，以及他的各种软件选择。
   
 33. [在特斯拉工作的感受](https://zhuanlan.zhihu.com/p/57993225)（中文）
     
@@ -130,9 +99,6 @@
     * 通常，网站用 Cookie 设置 ID，以便追踪用户。用户可以通过清除 Cookie，防止被追踪。但是手机上，App 可以通过无法重置的硬件 ID 追踪用户，比如 IMEI、网卡 MAC 地址，SIM 卡序列号等。为了解决这个问题，iPhone 和安卓都提供广告 ID 功能，既可以表示身份，又可以被用户重置。
     * ![img](https://www.wangbase.com/blogimg/asset/201903/bg2019032913.jpg)
 
-35. [SSD 硬盘是否可靠？](https://www.backblaze.com/blog/how-reliable-are-ssds/)（英文）
-    * 本文介绍了固态硬盘 SSD 的一些知识，以及与传统硬盘可靠性的对比。
-    * ![img](https://www.wangbase.com/blogimg/asset/201903/bg2019032914.jpg)
 
 36. [每行80个字符是很好的标准](https://nickjanetakis.com/blog/80-characters-per-line-is-a-standard-worth-sticking-to-even-today)（英文）
     
@@ -151,9 +117,6 @@
     
 * 本文给出自学计算机科学所需阅读的书单，有[中译](http://blog.jobbole.com/114573/)。（@[baibm](https://github.com/ruanyf/weekly/issues/291) 投稿）
   
-40. [如何成为一个优秀工程师](https://jvns.ca/blog/so-you-want-to-be-a-wizard/)（英文）
-    
-* 作者谈了自己在 Stripe 公司担任 SRE （系统可靠性）工程师的经历。
   
 41. [条形码如何工作？](https://habr.com/en/post/439768/)（英文）
 
@@ -169,10 +132,6 @@
 
     * 作者谈了 PHP 过去三年的改进，以及为什么更适合架设他们的网站。
     
-44. [文件系统的过去，现在和未来](https://arstechnica.com/gadgets/2008/03/past-present-future-file-systems/)（英文）
-    
-    * 文件系统的历史回顾，介绍各种文件系列的来历和特点。
-    
 45. [数字世界中的纸张----理解 PDF](https://type.cyhsu.xyz/2018/09/understanding-pdf-the-digitalized-paper/)（中文）
 
     * 一篇面向一般用户的 PDF 格式介绍，覆盖了 PDF 的适用场景、内部结构、常见误区。（@[jerrylususu](https://github.com/ruanyf/weekly/issues/175) 投稿）
@@ -184,12 +143,6 @@
 47. [谷歌搜索的运算符](https://ahrefs.com/blog/google-advanced-search-operators/)（英文）
 
     * 本文详细介绍谷歌搜索的运算符，用来定制搜索结果。
-48. [Linux 桌面设置](https://hookrace.net/blog/linux-desktop-setup/)（英文）
-
-    * 本文介绍了作者如何配置 Linux 桌面开发环境。
-49. [安全上网指南](https://securitycheckli.st/)（英文）
-    
-* 一份安全上网清单，从专业角度告诉你，应该做哪些事情，怎样才能安全地使用互联网。
   
 50. [如何使用树莓派架设各种网络服务](https://www.techcoil.com/blog/how-i-use-my-raspberry-pis-to-help-me-work-on-with-my-side-projects/)（英文）
     
@@ -203,13 +156,6 @@
     
 * SQLite 有很强的读取性能，作者提出它可以用作小型网站的搜索数据库。
   
-56. [HTTP 协议简史](https://hpbn.co/brief-history-of-http/)（英文）
-    
-* 介绍 HTTP 协议的由来和发展。（@[gusibi](https://github.com/ruanyf/weekly/issues/210) 投稿）
-  
-57. [Docker 的优缺点](https://blog.philipphauer.de/discussing-docker-pros-and-cons/)（英文）
-    
-* 一篇很简单的对 Docker 技术的评论。（@[lanzhiwang](https://github.com/ruanyf/weekly/issues/209) 投稿）
   
 58. [Python 类型系统入门教程](https://realpython.com/python-type-checking/)（英文）
     
@@ -231,9 +177,6 @@
     
 * 这是一个论坛的讨论帖，有人问这个问题，下面一堆回答，流行的技术基本上都提到了。
   
-60. [10年博客的经验](https://ferrucc.io/posts/starting-a-blog/)（英文）
-    
-* 作者写了10年博客，介绍怎么可以通过博客取得最佳效果。
   
 61. [我的必备 iOS 软件，2018年版](https://www.macstories.net/stories/my-must-have-ios-apps-2018-edition/)（英文）
     
@@ -245,13 +188,7 @@
 
     一个芬兰程序员搬到日本，介绍他如何创造一个向全世界邮寄日本糖果的服务，从而赚到自己在日本的所有生活费。
 
-63. [让你的生活更轻松的9个 Bash 快捷别名](https://medium.com/@raimibinkarim/9-bash-aliases-to-make-your-life-easier-3e5855aa95fa)（英文）
 
-    * 本文介绍9个实用的 Bash 函数，你可以参考他的方式，将自己常用的操作封装成函数，然后设置别名。
-
-64. [super-inspire-end](https://github.com/super-inspire/super-inspire-end/blob/master/docs/README-zh.md)
-    
-    * 使用 Docker 起一个 Linux 系统的容器，然后就可以在浏览器访问 Docker 里面的 Linux 系统。（[@](https://github.com/super-inspire/super-inspire-end/blob/master/docs/README-zh.md)[hileix](https://github.com/ruanyf/weekly/issues/238) 投稿）
 
 65. [GitHub Pages 支持自定义域名的 HTTPS 访问](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/)
     
@@ -261,61 +198,43 @@
 
     * devops 是 IT 行业的一个新兴领域，这一类工程师的职务应该怎么分类呢？这篇文章认为可以分成三种职务：运维（Operations）、平台工程（Platform Engineering）、发布管理（Release Management）。
 
-67. [MySQL 数据库的字符集，要用 utf8mb4，而不是 utf8](https://medium.com/@adamhooper/in-mysql-never-use-utf8-use-utf8mb4-11761243e434)（英文）
 
-    * MySQL 的 utf8 字符集不是真正的 UTF-8，只支持最多三个字节的字符。真正的 UTF-8 可能会出现四个字节的字符。MySQL 从来没有修复这个 Bug，而是使用另外的解决方法：真正的 UTF-8字符集改用 utf8mb4 的名字提供。.
-
-68. [如何生成 localhost 的证书？](https://letsencrypt.org/docs/certificates-for-localhost/)（英文）
-    
-    * 本地开发时，我们常常使用 localhost 访问本地服务，怎样才能生成证书，让 localhost 提供 https 服务呢？
-
-69. [Kubernetes 入门教程](http://okigiveup.net/a-tutorial-introduction-to-kubernetes/)（英文）
-    
-* Kubernetes 是现在最流行的容器集群管理工具，本文给出了一份上手教程，教大家怎么安装和使用它。
-  
-70. [dd 命令教程](https://opensource.com/article/18/7/how-use-dd-linux)（英文）
-    
-    * dd 命令通常用来克隆整块磁盘，或者制作 Linux 系统的 USB 启动盘。这篇文章教你怎么用，其实很简单。
-
-71. [为什么 Kubernetes 是新的应用服务器？](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)（英文）
-    * 这篇文章解释，为什么以后发布应用的时候，不是直接发布在服务器上，而是通过 Kubernetes 发布。
-
+​    
 72. [Go 与 Python 的比较](https://thinkfaster.co/2018/07/goodbye-python-hello-go/)（英文）
-    * 本文介绍 Go 语言对比 Python 的优点。
-
+    
+* 本文介绍 Go 语言对比 Python 的优点。
+  
 73. [提高 Python 程序性能的七个方法](https://www.tutorialdocs.com/article/7-habits-to-improve-python-programs.html)（英文）
-    * Python 的长处不是性能，但是采用本文的方法，可以减少一些不必要的资源浪费。
-
+    
+* Python 的长处不是性能，但是采用本文的方法，可以减少一些不必要的资源浪费。
+  
 74. [破坏程序员生产力的12件事](https://anaxi.com/blog/2018/10/15/top-12-things-that-destroy-developer-productivity/)（英文）
-    * 本文列出了影响程序员工作效率的常见情景：工作经常被打断、领导进行微观管理、产品需求不断扩大等等。
-
-75. [网站域名是否该有 www？](https://bjornjohansen.no/www-or-not)（英文）
-    * `www.example.com` 和 `example.com` 哪一个合适作为主站的域名？这里的关键问题是，`example.com` 设置的 Cookie 可以被子域名读取，并一起发送到服务器。
-
+    
+* 本文列出了影响程序员工作效率的常见情景：工作经常被打断、领导进行微观管理、产品需求不断扩大等等。
+  
+    
 76. [熵是什么？](https://fs.blog/2018/11/entropy/)（英文）
-    * 一篇科普文章，不仅介绍了物理意义的熵，还介绍社会内部的熵、公司内部的熵等。
-
-77. [Docker 镜像中有什么？](https://cameronlonsdale.com/2018/11/26/whats-in-a-docker-image/)（英文）
-    * Docker 的 Image 文件是分层的，本文简单介绍怎么查看每一层的内容，它们又是怎么组合成一个可以运行的 Image 文件。这里还有另外一篇类似的[文章](https://www.datawire.io/not-engineer-running-3-5gb-docker-images/)，通过控制分层来缩小 Image 文件尺寸。（@[tifazxy](https://github.com/ruanyf/weekly/issues/114) 投稿）
-
+    
+* 一篇科普文章，不仅介绍了物理意义的熵，还介绍社会内部的熵、公司内部的熵等。
+  
+    
 78. [解密英语语法](http://www.yinwang.org/blog-cn/2018/11/23/grammar) （中文）
-    * 王垠老师的《解密计算机科学》还没写完，又开始写第二本书《解密英语语法》。发布第一章以后，第二天他又把这个计划取消了，"我曾经想过把这写成一本完整的语法书，可是后来发现似乎一篇文章足矣。"（@[wblovezqy](https://github.com/ruanyf/weekly/issues/102)*_ _*投稿）
-
-79. [vimdiff 教程](https://vimways.org/2018/the-power-of-diff/)（英文）
-
-    * ![img](https://www.wangbase.com/blogimg/asset/201812/bg2018122812.jpg)
-
-    * vimdiff 是一个显示文件 diff 的命令行工具，本文主要介绍怎么改用其他算法，以不同的格式显示 diff。
+    
+* 王垠老师的《解密计算机科学》还没写完，又开始写第二本书《解密英语语法》。发布第一章以后，第二天他又把这个计划取消了，"我曾经想过把这写成一本完整的语法书，可是后来发现似乎一篇文章足矣。"（@[wblovezqy](https://github.com/ruanyf/weekly/issues/102)*_ _*投稿）
+  
 
 80. [谷歌代码搜索的工作原理](https://swtch.com/~rsc/regexp/regexp4.html)（英文）
-    * 谷歌代码搜索的作者，介绍搜索的算法原理。
-
+    
+* 谷歌代码搜索的作者，介绍搜索的算法原理。
+  
 81. https://pages.github.com/  [GitHub Pages 支持自定义域名的 HTTPS 访问](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/)
-    * 以前，GitHub Pages 绑定的自定义域名，只能使用 HTTP 协议访问。如果想开通加密访问，只有使用官方域名 [myrepo.github.io](https://t.co/c4faaiTV58)。现在，GitHub 使用 Let's encrypt ，终于做到可以对自定义域名签发 HTTPS 证书了。
-
+    
+* 以前，GitHub Pages 绑定的自定义域名，只能使用 HTTP 协议访问。如果想开通加密访问，只有使用官方域名 [myrepo.github.io](https://t.co/c4faaiTV58)。现在，GitHub 使用 Let's encrypt ，终于做到可以对自定义域名签发 HTTPS 证书了。
+  
 82. [Python 清理过时的标准库](https://www.python.org/dev/peps/pep-0594/)（英文）
-    * Python 的设计哲学是"自带电池"（battery-included），就是把需要的功能都包括在标准库里面。但是，随着 PyPI  越来越方便，Python 社区正在检讨这种哲学是否正确。缩减标准库可能是必要的，能让 Python  发行版更精简和灵活，第一步就是把过时的功能移出标准库。
-
+    
+* Python 的设计哲学是"自带电池"（battery-included），就是把需要的功能都包括在标准库里面。但是，随着 PyPI  越来越方便，Python 社区正在检讨这种哲学是否正确。缩减标准库可能是必要的，能让 Python  发行版更精简和灵活，第一步就是把过时的功能移出标准库。
+  
 83. [十五年了，海盗湾依然存在](https://melmagazine.com/en-us/story/after-15-years-the-pirate-bay-still-cant-be-killed)（英文）
 
     * ![img](https://www.wangbase.com/blogimg/asset/201906/bg2019062116.jpg)
@@ -323,14 +242,22 @@
     * 海盗湾成立至今，已经十五年了。无数次被告，服务器被抄家，域名被封锁，甚至四个创始人都关进监狱一年，但是直到今天，它依然在正常运作。
 
 84. [如何使用 GitHub issue 作为博客后端？](https://github.com/ruanyf/weekly/issues/585)（中文）
-    * 你可以使用 GitHub issue 写博客，然后依靠 API 通过 Circle-CI 构建出网站。
-
-85. [ssh-agent 转发详解](http://www.unixwiz.net/techtips/ssh-agent-forwarding.html)（英文）
-    * ssh 登录的时候，比较安全的做法是使用公钥认证。但是，这要求本机必须有私钥。如果你需要在多台机器上使用 ssh  登录，一台台拷贝私钥很麻烦，也不安全，幸好 ssh 提供了 agent 转发功能，允许在一台机器上 ssh  登录的时候，可以使用另一台机器的私钥。
-
+    
+* 你可以使用 GitHub issue 写博客，然后依靠 API 通过 Circle-CI 构建出网站。
+  
+    
 86. [gRPC 与 RESTful API 的比较](https://eng.fromatob.com/post/2019/05/why-were-switching-to-grpc/)（英文）
-    * 使用微服务式架构时，服务的通信方式可以是 RESTful API，也可以用 gRPC，作者分析了两者的差异。
-
+    
+* 使用微服务式架构时，服务的通信方式可以是 RESTful API，也可以用 gRPC，作者分析了两者的差异。
+  
 87. [为什么创业？](https://medium.com/swlh/why-you-want-to-start-a-startup-89484ca30b01)（英文）
 
     作者是 Facebook 员工，谈了创业的10个原因，以及 Facebook 如何在内部模拟这些条件，吸引员工留下。
+
+88. [DNS 基础知识与 dig 命令](https://www.redhat.com/sysadmin/dns-domain-name-servers)（英文）
+
+​       本文讲解 DNS 的基本知识，然后用 dig 命令演示如何获取 DNS 信息。
+
+89. [AWS 的数据迁移费](https://www.theinformation.com/articles/aws-customers-rack-up-hefty-bills-for-moving-data?utm_source=hackernews&utm_medium=unlock)（英文）
+
+    亚马逊云服务 AWS 的费用包含一项"数据迁移费"（data transfer）。本文分析 AWS 头部客户的这项费用，可以借此了解云服务的付费情况。
