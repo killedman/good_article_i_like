@@ -24,7 +24,6 @@
 *  Unsplash 是最流行的高清图片分享网站，创始人披露，2019年2月该网站的运营成本：服务器 + 带宽大约7万多美元，数据处理 + 监控2万多美元，总费用10万美元。
    
 9. [WordPress 的签名验证机制](https://paragonie.com/blog/2019/05/wordpress-5-2-mitigating-supply-chain-attacks-against-33-internet)（英文）
-   
    * WordPress 采用在线更新机制，从远程下载更新包，因此必须有一个签名验证机制，防止被插入恶意代码。本文介绍 WordPress 如何实现签名验证。
    
 10. [如何制作一个多人实时协作的编辑器](https://news.ycombinator.com/item?id=19845776)（英文）
@@ -261,3 +260,21 @@
 89. [AWS 的数据迁移费](https://www.theinformation.com/articles/aws-customers-rack-up-hefty-bills-for-moving-data?utm_source=hackernews&utm_medium=unlock)（英文）
 
     亚马逊云服务 AWS 的费用包含一项"数据迁移费"（data transfer）。本文分析 AWS 头部客户的这项费用，可以借此了解云服务的付费情况。
+    
+90. [HTTP 协议基础](http://www.steves-internet-guide.com/http-basics/)（英文）
+    
+    HTTP 是一个比较简单的协议，本文在不长的篇幅中，对它的基本内容做了一个完整介绍。（@[weinberggithub](https://github.com/ruanyf/weekly/issues/918) 投稿）
+    
+91. [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+
+92. [自学计算机科学](https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md)
+
+93. [QR 码在中国到处可见](https://a16z.com/2019/10/30/the-power-of-qr-codes/)（英文）
+
+94. [git rebase 是有害的](https://www.fossil-scm.org/fossil/doc/trunk/www/rebaseharm.md)（英文）
+
+    本文详细解释理由，建议不要使用 git rebase 命令，至少不要在多人开发的分支上使用。
+
+95. [不要把 DNS 的 TTL 设得过低](https://00f.net/2019/11/03/stop-using-low-dns-ttls/)（英文）
+
+购买域名的时候，都要设置 TTL 参数。它表示 DNS 记录的缓存时间，如果设得过低，浏览器就会不停发出 DNS 请求，这完全没有必要。本文作者建议，TTL 可以设成40分钟到1小时。
