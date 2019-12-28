@@ -278,3 +278,4 @@
 95. [不要把 DNS 的 TTL 设得过低](https://00f.net/2019/11/03/stop-using-low-dns-ttls/)（英文）
 
 购买域名的时候，都要设置 TTL 参数。它表示 DNS 记录的缓存时间，如果设得过低，浏览器就会不停发出 DNS 请求，这完全没有必要。本文作者建议，TTL 可以设成40分钟到1小时。
+96、[Linux 软件包的打包方式（中文）](https://www.ibm.com/developerworks/cn/linux/l-lo-rpm-build-package/index.html) 本文以一个最简单的 Hello World 程序为例，解释如何打包成一个 RPM 软件包。
